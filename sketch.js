@@ -13,7 +13,7 @@ class Lissajous {
     }
 
     show() {
-        this.t = frameCount/100;
+        this.t = frameCount/1000;
         push()
         translate(this.pos.x, this.pos.y)
         //Lissaujous Punkte werden auf Canvas gezeichnet
